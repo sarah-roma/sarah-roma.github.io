@@ -12,7 +12,8 @@ body {
     color: #F4A261;
   }
 
-  .p1 {
-    font-family: "Courier New", "Lucida Console", monospace;
+  p {
     color: #F4A261;
+    margin-left: 20px;
+    font-family: "Courier New", "Lucida Console", monospace;
   }
