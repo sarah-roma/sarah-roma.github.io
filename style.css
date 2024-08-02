@@ -12,7 +12,7 @@
   width: 640px;
 }
 
-.welcome-block .welcome-text {
+.page1 .welcome-text {
   position: absolute;
   width: 600px;
   height: 96px;
@@ -37,7 +37,7 @@
 }
 
 
-.name-block .name-text {
+.page1 .name-text {
   position: absolute;
   width: 600px;
   height: 96px;
