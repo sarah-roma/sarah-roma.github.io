@@ -1,6 +1,14 @@
+body, h1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .page1 {
   background-color: #869d7a;
   width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .page1 .welcome-block {
@@ -10,21 +18,23 @@
   background-color: #d9d9d9;
   position: absolute;
   width: 640px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .page1 .welcome-text {
-  position: absolute;
+  /* position: absolute;
   width: 600px;
   height: 96px;
   top: 13px;
-  left: 20px;
+  left: 20px; */
   font-family: "Courier New", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 40px;
   text-align: left;
-  letter-spacing: 0;
-  line-height: normal;
+  /* letter-spacing: 0;
+  line-height: normal; */
 }
 
 .page1 .name-block {
@@ -34,20 +44,22 @@
   background-color: #d9d9d9;
   position: absolute;
   width: 640px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 
 .page1 .name-text {
-  position: absolute;
+  /* position: absolute;
   width: 600px;
   height: 96px;
   top: 13px;
-  left: 20px;
+  left: 20px; */
   font-family: "Courier New", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 40px;
   text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
+  /* letter-spacing: 0;
+  line-height: normal; */
 }
