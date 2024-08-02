@@ -1,149 +1,19 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow-x: hidden;
-}
-
-.container {
-  width: 100%;
-}
-
-.section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.green {
+body {
   background-color: #869d7a;
-  height: 100vh;
-  position: relative;
+  width: 100%;
 }
 
-.gray {
+.welcome-block .name-block {
+  position: relative;
+  width: 640px;
+  height: 124px;
   background-color: #d9d9d9;
-  min-height: 100vh;
-  position: relative;
 }
 
-.component, .div-wrapper, .rectangle, .frame {
-  background-color: #869d7a;
-}
-
-.text-wrapper, .text-wrapper-2, .text-wrapper-3, .text-wrapper-4, .text-wrapper-5 {
+.welcome-text .name-text {
   font-family: "Courier New", Helvetica;
   font-weight: 400;
   color: #000000;
-}
-
-.text-wrapper-2, .text-wrapper-3 {
-  color: #d9d9d9;
-}
-
-.lets-go {
-  position: relative;
-  width: 15vw;
-  height: 5vh;
-}
-
-.text-wrapper-2 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  font-style: italic;
-  font-size: 3vw;
-  white-space: nowrap;
-}
-
-.text-wrapper-3 {
-  position: relative;
-  width: fit-content;
-  font-size: 3vw;
+  font-size: 24px;
   text-align: center;
-  white-space: nowrap;
-}
-
-.component {
-  height: 20vh;
-  width: 50vw;
-  top: 10vh;
-  left: 5vw;
-  position: absolute;
-}
-
-.div-wrapper {
-  height: 20vh;
-  top: 40vh;
-  left: 20vw;
-  position: absolute;
-  width: 50vw;
-}
-
-.rectangle {
-  position: absolute;
-  width: 20vw;
-  height: 100vh;
-  top: 0;
-  left: 75vw;
-}
-
-.frame {
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  height: 100vh;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5vh 1.5vw;
-  position: absolute;
-  top: 0;
-  left: 75vw;
-}
-
-.component-2 {
-  height: 15vh;
-  top: 20vh;
-  left: 10vw;
-  background-color: #d9d9d9;
-  position: absolute;
-  width: 50vw;
-}
-
-.text-wrapper-4 {
-  position: absolute;
-  width: 90%;
-  height: 80%;
-  top: 10%;
-  left: 5%;
-  font-size: 3vw;
-}
-
-.component-3 {
-  height: 15vh;
-  top: 45vh;
-  left: 39vw;
-  background-color: #d9d9d9;
-  position: absolute;
-  width: 50vw;
-}
-
-.text-wrapper-5 {
-  position: absolute;
-  width: 90%;
-  height: 80%;
-  top: 10%;
-  left: 5%;
-  font-size: 3vw;
-  text-align: right;
-}
-
-.arrow {
-  position: absolute;
-  width: 1vw;
-  height: 20vh;
-  top: 65vh;
-  left: 87.5vw;
 }
