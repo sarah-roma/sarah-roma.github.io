@@ -1,9 +1,17 @@
 body {
-    background-color: rgb(26, 46, 53);
+    background: #869D7A;
+}
+
+div {
+    width: 1280px;
+    height: 832px;
+}
+/* body {
+    background: #869D7A;;
   }
   
   h1, h2, p {
     text-align: center;
     font-family: "Courier New", "Lucida Console", monospace;
-    color: #F4A261;
-  }
+    color: #9f6f47;
+  } */
