@@ -1,19 +1,53 @@
-body {
+.page1 {
   background-color: #869d7a;
   width: 100%;
 }
 
-.welcome-block .name-block {
-  position: relative;
-  width: 640px;
+.page1 .welcome-block {
   height: 124px;
+  top: 166px;
+  left: 140px;
   background-color: #d9d9d9;
+  position: absolute;
+  width: 640px;
 }
 
-.welcome-text .name-text {
+.welcome-block .welcome-text {
+  position: absolute;
+  width: 600px;
+  height: 96px;
+  top: 13px;
+  left: 20px;
   font-family: "Courier New", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 24px;
-  text-align: center;
+  font-size: 40px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page1 .name-block {
+  height: 124px;
+  top: 350px;
+  left: 500px;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 640px;
+}
+
+
+.name-block .name-text {
+  position: absolute;
+  width: 600px;
+  height: 96px;
+  top: 13px;
+  left: 20px;
+  font-family: "Courier New", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
 }
