@@ -1,174 +1,149 @@
-.main-screen {
-  background-color: #869d7a;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
   width: 100%;
 }
 
-.main-screen .div {
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.green {
   background-color: #869d7a;
-  width: 1280px;
-  height: 832px;
+  height: 100vh;
   position: relative;
 }
 
-.main-screen .overlap-group {
-  position: absolute;
-  width: 1280px;
-  height: 832px;
-  top: 700px;
-  left: 0;
-}
-
-.main-screen .div-2 {
-  position: absolute;
-  width: 1280px;
-  height: 700px;
-  top: 132px;
-  left: 0;
+.gray {
   background-color: #d9d9d9;
+  min-height: 100vh;
+  position: relative;
 }
 
-.main-screen .component {
-  height: 160px;
-  top: 82px;
-  left: 74px;
+.component, .div-wrapper, .rectangle, .frame {
   background-color: #869d7a;
-  position: absolute;
-  width: 640px;
 }
 
-.main-screen .text-wrapper {
-  position: absolute;
-  width: 598px;
-  top: 20px;
-  left: 21px;
+.text-wrapper, .text-wrapper-2, .text-wrapper-3, .text-wrapper-4, .text-wrapper-5 {
   font-family: "Courier New", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
-.main-screen .div-wrapper {
-  height: 160px;
-  top: 322px;
-  left: 258px;
-  background-color: #869d7a;
-  position: absolute;
-  width: 640px;
-}
-
-.main-screen .rectangle {
-  position: absolute;
-  width: 260px;
-  height: 832px;
-  top: 0;
-  left: 990px;
-  background-color: #334e58;
-}
-
-.main-screen .frame {
-  display: flex;
-  flex-direction: column;
-  width: 260px;
-  height: 832px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 38px 21px;
-  position: absolute;
-  top: 0;
-  left: 990px;
-}
-
-.main-screen .lets-go {
-  position: relative;
-  width: 193px;
-  height: 45px;
-}
-
-.main-screen .text-wrapper-2 {
-  position: absolute;
-  height: 45px;
-  top: -1px;
-  left: 0;
-  font-family: "Courier New", Helvetica;
-  font-weight: 400;
-  font-style: italic;
+.text-wrapper-2, .text-wrapper-3 {
   color: #d9d9d9;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
+}
+
+.lets-go {
+  position: relative;
+  width: 15vw;
+  height: 5vh;
+}
+
+.text-wrapper-2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-style: italic;
+  font-size: 3vw;
   white-space: nowrap;
 }
 
-.main-screen .text-wrapper-3 {
+.text-wrapper-3 {
   position: relative;
   width: fit-content;
-  font-family: "Courier New", Helvetica;
-  font-weight: 400;
-  color: #d9d9d9;
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
   white-space: nowrap;
 }
 
-.main-screen .component-2 {
-  height: 124px;
-  top: 166px;
-  left: 140px;
+.component {
+  height: 20vh;
+  width: 50vw;
+  top: 10vh;
+  left: 5vw;
+  position: absolute;
+}
+
+.div-wrapper {
+  height: 20vh;
+  top: 40vh;
+  left: 20vw;
+  position: absolute;
+  width: 50vw;
+}
+
+.rectangle {
+  position: absolute;
+  width: 20vw;
+  height: 100vh;
+  top: 0;
+  left: 75vw;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vh 1.5vw;
+  position: absolute;
+  top: 0;
+  left: 75vw;
+}
+
+.component-2 {
+  height: 15vh;
+  top: 20vh;
+  left: 10vw;
   background-color: #d9d9d9;
   position: absolute;
-  width: 640px;
+  width: 50vw;
 }
 
-.main-screen .text-wrapper-4 {
+.text-wrapper-4 {
   position: absolute;
-  width: 600px;
-  height: 96px;
-  top: 13px;
-  left: 20px;
-  font-family: "Courier New", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
+  width: 90%;
+  height: 80%;
+  top: 10%;
+  left: 5%;
+  font-size: 3vw;
 }
 
-.main-screen .component-3 {
-  height: 124px;
-  top: 350px;
-  left: 500px;
+.component-3 {
+  height: 15vh;
+  top: 45vh;
+  left: 39vw;
   background-color: #d9d9d9;
   position: absolute;
-  width: 640px;
+  width: 50vw;
 }
 
-.main-screen .text-wrapper-5 {
+.text-wrapper-5 {
   position: absolute;
-  width: 600px;
-  height: 96px;
-  top: 13px;
-  left: 20px;
-  font-family: "Courier New", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 40px;
+  width: 90%;
+  height: 80%;
+  top: 10%;
+  left: 5%;
+  font-size: 3vw;
   text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
-.main-screen .arrow {
+.arrow {
   position: absolute;
-  width: 1px;
-  height: 160px;
-  top: 507px;
-  left: 1120px;
+  width: 1vw;
+  height: 20vh;
+  top: 65vh;
+  left: 87.5vw;
 }
