@@ -19,50 +19,35 @@ body, h1 {
   background-color: #d9d9d9;
   position: absolute;
   width: 640px;
-  padding: 20px;
+  padding: 12px 20px 12px 20px;
   box-sizing: border-box;
 }
 
 .page1 .welcome-text {
-  /* position: absolute;
-  width: 600px;
-  height: 96px;
-  top: 13px;
-  left: 20px; */
   font-family: "Courier New", Helvetica;
-  font-weight: 100;
+  font-weight: 50;
   color: #000000;
   font-size: 40px;
   text-align: left;
-  /* letter-spacing: 0;
-  line-height: normal; */
 }
 
 .page1 .name-block {
   height: 124px;
-  top: 350px;
+  top: 420px;
   right: 140px;
   background-color: #d9d9d9;
   position: absolute;
   width: 640px;
-  padding: 20px;
+  padding: 12px 20px 12px 20px;
   box-sizing: border-box;
 }
 
-
 .page1 .name-text {
-  /* position: absolute;
-  width: 600px;
-  height: 96px;
-  top: 13px;
-  left: 20px; */
   font-family: "Courier New", Helvetica;
-  font-weight: 100;
+  font-weight: 50;
   color: #000000;
   font-size: 40px;
   text-align: right;
-  /* letter-spacing: 0;
-  line-height: normal; */
 }
 
 .page1 .menu-block {
@@ -71,31 +56,34 @@ body, h1 {
   align-items: center;
   justify-content: flex-start;
   width: 260px;
-  height: 832px; /* Full height of the menu */
-  padding: 20px;
+  height: 832px;
+  padding: 12px 20px 12px 20px ;
   position: absolute;
-  top: calc(100vh - 60px); /* Peek 60px into the main screen */
-  right: 0;
+  top: calc(100vh - 60px);
+  right: calc(100vw - 20px);
   background-color: #334e58;
   box-sizing: border-box;
-  clip-path: inset(-100px 0 0 0); /* Initially hides the rest of the menu */
-  transition: clip-path 0.5s ease; /* Smooth transition on scroll */
+  clip-path: inset(-100px 0 0 0);
+  transition: clip-path 0.5s ease;
 }
 
 .page1 .menu-text {
   font-family: "Courier New", Helvetica;
-  font-weight: 400;
+  font-weight: 50;
   font-style: italic;
   color: #d9d9d9;
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 30px;
+  text-transform: lowercase;
 }
 
-.page1 .menu-item {
+.page1 ul {
+  list-style-type: none;
+  /* padding: 0; */
   font-family: "Courier New", Helvetica;
-  font-weight: 400;
+  font-weight: 50;
   color: #d9d9d9;
-  font-size: 24px;
+  font-size: 32px;
   margin: 10px 0;
   text-align: center;
 }
