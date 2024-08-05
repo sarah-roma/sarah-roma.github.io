@@ -65,16 +65,21 @@ body, h1 {
 }
 
 .page1 .menu-block {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 260px;
   height: 832px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 21px;
+  position: absolute;
   top: 0;
   left: 990px;
   background-color: #334e58;
 }
 
 .page1 .menu-text {
-  position: absolute;
+  position: relative;
   height: 45px;
   top: -1px;
   left: 0;
