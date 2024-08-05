@@ -71,14 +71,15 @@ body, h1 {
   align-items: center;
   justify-content: flex-start;
   width: 260px;
-  height: 100vh;
+  height: 832px; /* Full height of the menu */
   padding: 20px;
-  position: fixed;
-  top: 640px; /* Position it halfway down the viewport initially */
-  right: 24px;
-  transform: translateY(-25%); /* Offset to make it peek into the main screen */
+  position: absolute;
+  top: calc(100vh - 60px); /* Peek 60px into the main screen */
+  right: 0;
   background-color: #334e58;
   box-sizing: border-box;
+  clip-path: inset(-100px 0 0 0); /* Initially hides the rest of the menu */
+  transition: clip-path 0.5s ease; /* Smooth transition on scroll */
 }
 
 .page1 .menu-text {
