@@ -60,7 +60,7 @@ body, h1 {
   padding: 12px 20px 12px 20px ;
   position: absolute;
   top: calc(100vh - 60px);
-  right: calc(100vw - 20px);
+  right: 20px;
   background-color: #334e58;
   box-sizing: border-box;
   clip-path: inset(-100px 0 0 0);
@@ -79,11 +79,25 @@ body, h1 {
 
 .page1 ul {
   list-style-type: none;
-  /* padding: 0; */
+  padding: 0;
   font-family: "Courier New", Helvetica;
   font-weight: 50;
   color: #d9d9d9;
   font-size: 32px;
-  margin: 10px 0;
+  margin: 0;
   text-align: center;
+  width: 100%;
+}
+
+.page1 ul li {
+  margin: 10px 0;
+}
+
+.page1 ul li a {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.page1 ul li a:hover {
+  color:#de8f6e;
 }
