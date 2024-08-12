@@ -148,11 +148,11 @@ body, h1 {
   align-items: center;
   justify-content: flex-start;
   width: 260px;
-  height: 300px; /* Adjust height as needed */
+  height: 300px;
   padding: 12px 20px;
-  position: fixed; /* Use fixed positioning */
-  bottom: 20px; /* Align to the bottom */
-  right: 20px; /* Align to the right */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   background-color: #334e58;
   box-sizing: border-box;
   clip-path: inset(-100px 0 0 0);
