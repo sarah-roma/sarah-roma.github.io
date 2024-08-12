@@ -94,6 +94,13 @@ body, h1 {
 }
 
 .page1 .about-me {
+  position: absolute;
+  top: 600px; /* Adjust to position below the title cards */
+  left: 20px; /* Adjust to position to the left of the menu block */
+  width: calc(100% - 300px); /* Leave space for the menu block */
+}
+
+.page1 .about-me-title-block {
   width: 236px;
   height: 72px;
   background-color: #de8f6e;
@@ -105,7 +112,7 @@ body, h1 {
   box-sizing: border-box;
 }
 
-.page1 .about-me-text {
+.page1 .about-me-title-text {
   position: absolute;
   top: 12px;
   left: 21px;
@@ -119,7 +126,40 @@ body, h1 {
   white-space: nowrap;
 }
 
-.page1 .about-me-block1 {
+.page1 .about-me-block1,
+.page1 .about-me-block2 {
+  background-color: #d9d9d9;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 598px;
+}
+
+.page1 .about-me-text1,
+.page1 .about-me-text2 {
+  font-family: "Courier New", Helvetica;
+  font-weight: 50;
+  color: #000000;
+  font-size: 24px;
+}
+
+/* .page1 .menu-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 260px;
+  height: 300px; /* Adjust height as needed */
+  padding: 12px 20px;
+  position: fixed; /* Use fixed positioning */
+  bottom: 20px; /* Align to the bottom */
+  right: 20px; /* Align to the right */
+  background-color: #334e58;
+  box-sizing: border-box;
+  clip-path: inset(-100px 0 0 0);
+  transition: clip-path 0.5s ease;
+} */
+
+/* .page1 .about-me-block1 {
   position: relative;
   width: 640px;
   height: 160px;
@@ -133,6 +173,21 @@ body, h1 {
   font-size: 24px;
   text-align: right;
 }
+
+.page1 .about-me-block2 {
+  position: relative;
+  width: 640px;
+  height: 160px;
+  background-color: #d9d9d9;
+}
+
+.page1 .about-me-text2 {
+  font-family: "Courier New", Helvetica;
+  font-weight: 50;
+  color: #000000;
+  font-size: 24px;
+  text-align: right;
+} */
 
 /* .page1 ul li a {
   color: #d9d9d9;
