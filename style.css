@@ -95,7 +95,7 @@ body, h1 {
 
 .page1 .about-me {
   position: absolute;
-  top: 800px; /* Adjust to position below the title cards */
+  top: 800px;
   left: 50%;
   transform: translateX(-50%);
   width: 640px;
@@ -112,7 +112,6 @@ body, h1 {
 
 .page1 .about-me-title-text {
   font-family: "Courier New", Helvetica;
-  font-weight: 50;
   color: #000000;
   font-size: 40px;
   text-align: center;
@@ -124,7 +123,7 @@ body, h1 {
 .page1 .about-me-block2 {
   background-color: #d9d9d9;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -137,54 +136,6 @@ body, h1 {
   font-size: 24px;
 }
 
-/* .page1 .about-me {
-  position: absolute;
-  top: 600px;
-  left: 20px;
-  width: calc(100% - 300px);
-}
-
-.page1 .about-me-title-block {
-  width: 236px;
-  height: 72px;
-  background-color: #de8f6e;
-  top: 166px;
-  left: 140px;
-  position: absolute;
-  width: 640px;
-  padding: 12px 20px 12px 20px;
-  box-sizing: border-box;
-}
-
-.page1 .about-me-title-text {
-  position: absolute;
-  top: 12px;
-  left: 21px;
-  font-family: "Courier New", Helvetica;
-  font-weight: 50;
-  color: #000000;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.page1 .about-me-block1,
-.page1 .about-me-block2 {
-  background-color: #d9d9d9;
-  padding: 20px;
-  margin-bottom: 20px;
-  width: 598px;
-}
-
-.page1 .about-me-text1,
-.page1 .about-me-text2 {
-  font-family: "Courier New", Helvetica;
-  font-weight: 50;
-  color: #000000;
-  font-size: 24px;
-} */
 
 /* .page1 .menu-block {
   display: flex;
@@ -201,36 +152,6 @@ body, h1 {
   box-sizing: border-box;
   clip-path: inset(-100px 0 0 0);
   transition: clip-path 0.5s ease;
-} */
-
-/* .page1 .about-me-block1 {
-  position: relative;
-  width: 640px;
-  height: 160px;
-  background-color: #d9d9d9;
-}
-
-.page1 .about-me-text1 {
-  font-family: "Courier New", Helvetica;
-  font-weight: 50;
-  color: #000000;
-  font-size: 24px;
-  text-align: right;
-}
-
-.page1 .about-me-block2 {
-  position: relative;
-  width: 640px;
-  height: 160px;
-  background-color: #d9d9d9;
-}
-
-.page1 .about-me-text2 {
-  font-family: "Courier New", Helvetica;
-  font-weight: 50;
-  color: #000000;
-  font-size: 24px;
-  text-align: right;
 } */
 
 /* .page1 ul li a {
