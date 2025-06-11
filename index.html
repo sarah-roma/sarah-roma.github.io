@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Event Countdown Timer</h1>
+    <p id="event-date">FIELD Date: August 10, 2025</p>
+    <p id="countdown"></p>
+
+    <script>
+        const eventDate = new Date('2025-08-10T00:00:00');
+        const countdownElement = document.getElementById('countdown');
+
+        function updateCountdown() {
+            const currentDate = new Date();
+            const remainingTime = eventDate - currentDate;
+
+            if (remainingTime <= 0) {
+                countdownElement.textContent = 'The event has started!';
+            } else {
+                const secondsInDay = 86400;
+                const secondsRemaining = remainingTime / 1000;
+
+                const days = Math.floor(secondsRemaining / secondsInDay);
+                const hours = Math.floor((secondsRemaining % secondsInDay) / 3600);
+                const minutes = Math.floor((secondsRemaining % 3600) / 60);
+                const seconds = Math.floor(secondsRemaining % 60);
+
+                countdownElement.textContent = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds until FIELD`;
+            }
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
